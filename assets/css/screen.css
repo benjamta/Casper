@@ -377,6 +377,18 @@ margin on the iframe, cause it breaks stuff. */
     background-size: cover;
 }
 
+.site-head-small {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #000;
+    background: #FFFFFF no-repeat center center;
+    padding-top: 2em;
+}
+
 .blog-logo {
     text-decoration: none;
 }
@@ -397,7 +409,6 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    text-shadow: 0 1px 6px rgba(0,0,0,0.1);
 }
 
 .blog-description {
@@ -407,7 +418,6 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 300;
     font-family: 'Noto Serif', serif;
     letter-spacing: 0;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -944,6 +954,15 @@ margin on the iframe, cause it breaks stuff. */
         font-size: 1.1rem;
     }
 
+}
+p.readmore {
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  margin-top: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 400;
+  font-size: 11pt;
 }
 
 /* ==========================================================================
